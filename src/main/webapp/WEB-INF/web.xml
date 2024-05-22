@@ -4,7 +4,11 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1">
 
-	<display-name>Projeto-jsf-e-primefaces</display-name>
+	<display-name>curso-jsf-e-primefaces-essencial</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>GestãoEmpresas.xhtml</welcome-file>
+	</welcome-file-list>
 
 	<context-param>
 		<param-name>javax.faces.PROJECT_STAGE</param-name>
