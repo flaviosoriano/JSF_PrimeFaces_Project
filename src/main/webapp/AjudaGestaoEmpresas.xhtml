@@ -4,9 +4,8 @@
  	xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
 
-
 <meta charset="UTF-8"/>
-<title>Gestão Empresas</title>
+<title>Ajuda</title>
 
 <h:outputStylesheet library="projetoTesteLibrary" name="estilo.css" />
 
@@ -14,17 +13,18 @@
 
 <h:body>
 	<header>
+		
 	</header>
+	
+	<h2> Ajuda </h2>
 
 	<div id="conteudo">
 		<h:form>
-			<h:panelGrid columns="2">
-				<h:outputLabel value="Número: " />
-				<h:outputText value="#{gestaoEmpresasBean.numero}"/>
-				
-				<h:outputLabel />
-				<h:commandButton value="Salvar" />
-			</h:panelGrid>
+			<p>Esta é a ajuda da página de cadastro de empresas.</p>
+			
+			<p>
+				<h:commandLink value="Voltar" action="GestaoEmpresas?faces-redirect=true" />
+			</p>	
 		</h:form>	
 	</div>
 	
